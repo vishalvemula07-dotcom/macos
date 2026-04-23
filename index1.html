@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      border-radius: 25px;
+      background: #00c6ff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #fff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0,0,0,0.3);
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #00c6ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hi, I'm Your Name 👋</h1>
+    <p>Web Developer | Open Source Enthusiast | Problem Solver</p>
+    <a href="https://github.com/yourusername" class="btn">Visit My GitHub</a>
+  </header>
+
+  <section>
+    <h2>🚀 Projects</h2>
+    <div class="projects">
+      
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Short description of your project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Short description of your project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Short description of your project.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>💡 About Me</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      I'm passionate about building cool stuff with code. I love working with modern web technologies and contributing to open-source projects.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name | Built with ❤️</p>
+    <p><a href="mailto:youremail@example.com">Contact Me</a></p>
+  </footer>
+
+</body>
+</html>
